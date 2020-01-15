@@ -757,6 +757,72 @@
 
 
 
+      <!-- Page section -->
+      <div class="page-section-bg2 parallax-section" data-bg="images/contact_bg.jpg" id="contact">
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+
+              <h2 class="section-title">빠른 상담 신청<span class="item-divider-3 style-3"></span></h2>
+
+              <p>법률사무소 약속은 별도의 상담비용없이 친절 상담으로 의뢰인에게 최적의 법률 서비스를 제공해드립니다.</p>
+
+            </div>
+            <div class="col-md-8 col-sm-12">
+
+              <form id="gform" class="contact-form" method="post" onsubmit="dataLayer.push({'event': 'formSubmit'})" action="https://script.google.com/macros/s/AKfycbyeezmAN6glbq-mhlLuHlfiKOKd-Y3mv91x1_erSrkDpSN7fHOu/exec">
+
+                <div class="flex-row">
+
+                  <div class="col-sm-4">
+
+                    <input type="text" id="name" name="name" placeholder="이름 *" required>
+
+                  </div>
+                  <div class="col-sm-4">
+
+                    <input type="tel" id="phone" name="phone" placeholder="연락처 *" required>
+
+                  </div>
+                  <div class="col-sm-4">
+
+                    <input type="text" id="location" name="location" placeholder="거주지역">
+
+                  </div>
+
+									<div class="col-sm-12">
+										<input type="text" id="case" name="case" placeholder="상담분야 *     예시)민사소송, 형사소송, 가사소송, 회생, 파산" required>
+								  </div>
+
+									<div class="col-sm-12">
+
+                    <textarea rows="3" id="message" name="message" placeholder="문의사항 *" required></textarea>
+
+                  </div>
+
+                  <div class="col-sm-12">
+
+                    <button type="submit" class="btn btn-style-2" data-type="submit">제출하기</button>
+
+                  </div>
+
+                </div>
+
+              </form>
+							<div style="display:none;" id="thankyou_message">
+								<h2>감사합니다.</h2>
+							</div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
 
     <!-- - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
 
@@ -861,7 +927,6 @@
 
   <!-- JS Libs & Plugins
   ============================================ -->
-
   <script src="js/libs/jquery.modernizr.js"></script>
   <script src="js/libs/jquery-2.2.4.min.js"></script>
   <script src="js/libs/jquery-ui.min.js"></script>
