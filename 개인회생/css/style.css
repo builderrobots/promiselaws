@@ -2439,6 +2439,7 @@ button.search-button:before{content: "\e922";}
     input[type="checkbox"] + label::before{
       top: 5px;
       border-radius: 3px;
+      background: white;
       width: 22px;
       height: 22px;
     }
@@ -3200,8 +3201,8 @@ button.search-button:before{content: "\e922";}
 
   blockquote p{
     font-family: 'Nanum Gothic', serif;
-    font-size: 1.3333em;
-    line-height: 36px;
+    font-size: 1em;
+    line-height: 30px;
     font-weight: 300;
   }
 
